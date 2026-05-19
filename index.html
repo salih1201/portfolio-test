@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio van Salih Hassam, een gedreven Junior Web Developer gespecialiseerd in HTML, CSS.">
+    <title>Salih Hassam - Web Developer portfolio</title>
+    <link rel="canonical" href="https://www.jouwdomein.nl/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css' crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css' crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav aria-label="Hoofdmenu">
+            <label for="menu-toggle">☰ Menu</label>
+            <input type="checkbox" id="menu-toggle">
+            <span class="logo"><i class="fi fi-brands-python"></i> Salih Hassam</span>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#over-mij">Over mij</a></li>
+                <li><a href="#projecten">Projecten</a></li>
+                <li class="mobile-only"><a href="#contact" class="btn-cta">Neem contact op</a></li>
+            </ul>
+            <a href="#contact" class="btn-cta desktop-only">Neem contact op</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <header>
+                <h1>Hallo, ik ben <span>Salih Hassam</span>, Web Developer</h1>
+                <ul class="cta-buttons">
+                    <li><button type="button">Bekijk mijn projecten</button></li>
+                    <li><button type="button">Download CV</button></li>
+                </ul>
+            </header>
+            <figure>
+                <img src="image/Project.webp" alt="Preview van webshop project" width="350" height="200" loading="lazy"> 
+            </figure>
+        </section>
+
+        <section id="over-mij" class="about">
+            <header>
+                <h2>Over mij</h2>
+            </header>
+            <section class="content-wrapper">
+                <h3 style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;">Details over mij</h3>
+                <figure>
+                    <img src="image/Portret.webp" alt="Portretfoto van Salih Hassam" width="350" height="200" loading="lazy">
+                </figure>
+                <article>
+                    <h4 style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;">Biografie & Vaardigheden</h4>
+                    <p>Ik ben een gedreven junior developer met een passie voor het bouwen van moderne websites. Met mijn kennis van HTML, CSS en JavaScript breng ik ontwerpen tot leven, terwijl ik met PHP en SQL zorg voor een sterke back-end. Ik leer snel en hou ervan om creatieve oplossingen te vinden voor elke uitdaging. Ik volg de opleiding Software Development aan Techniek College Rotterdam.</p>
+                    <section class="skills">
+                        <h3>Mijn Skills</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                            <li>PHP</li>
+                            <li>SQL</li>
+                        </ul>
+                    </section>
+                </article>
+            </section>
+        </section>
+
+        <section id="projecten" class="projects">
+            <header>
+                <h2>Recente Projecten</h2>
+            </header>
+            <ul class="project-grid" style="list-style: none; padding: 0; margin: 0;">
+                <li class="project-card">
+                    <article>
+                        <img src="image/Project.webp" alt="Preview van webshop project" width="350" height="200" loading="lazy">
+                        <h3>E-commerce Website</h3>
+                        <p>Een moderne webshop gebouwd met PHP en SQL.</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer">
+        <section class="footer-container">
+            <h4 style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;">Footer Navigatie en Contact</h4>
+
+            <header class="footer-brand">
+                <p><i class="fi fi-brands-atom"></i> Salih Hassam</p>
+            </header>
+
+            <nav class="footer-nav">
+                <h4>NAVIGATIE</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#over-mij">Over mij</a></li>
+                    <li><a href="#projecten">Projecten</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <section class="footer-contact">
+                <h4>CONTACT</h4>
+                <p><i class="fi fi-rr-envelopes"></i> salih.hassam@gmail.com</p>
+                <p><i class="fi fi-rr-phone-call"></i> 0687085707</p>
+            </section>
+
+            <section class="footer-socials">
+                <h4>SOCIALS</h4>
+                <a href="https://www.instagram.com/pg0l_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fi fi-brands-instagram"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fi fi-brands-linkedin"></i></a>
+                <a href="https://github.com/salih1201" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fi fi-brands-github"></i></a>
+            </section>
+
+        </section>
+    </footer>
+</body>
+</html>
